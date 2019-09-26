@@ -1,0 +1,31 @@
+account:
+  #账号
+  username: 2016101301
+  #密码
+  password: Aa0000000
+  phone: 15038059874
+server:
+  port: 9999
+  tomcat:
+    uri-encoding: UTF-8
+sms:
+  #urlGetToken: http://192.168.100.52/mc/api/console/token
+  #urlGetTokenTtl: http://192.168.100.52/mc/api/console/token/ttl
+  #urlSendMessage: http://192.168.100.65/user/api/v1/sms
+  urlGetToken: http://managerapi.henanga.gov.cn/mc/api/console/token
+  urlGetTokenTtl: http://managerapi.henanga.gov.cn/mc/api/console/token/ttl
+  urlSendMessage: http://api.henanga.gov.cn/user/api/v1/sms
+  appId: 100180
+  secrectKey: P7z1tseHzDmurGma
+  shortNo: 620
+  modCode: 001
+location:
+  lat: 34.791225
+  lng: 113.80497
+  about: 河南省郑州市金水区博学路街道永和龙子湖中央广场
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
